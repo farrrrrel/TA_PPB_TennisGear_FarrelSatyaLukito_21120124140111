@@ -1,0 +1,25 @@
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Backup files
+*.bak
+

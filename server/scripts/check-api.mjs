@@ -1,0 +1,23 @@
+import assert from 'node:assert/strict';
+const url = process.env.API_URL || 'http://localhost:4000';
+const get = async (path) => {
+  const r = await fetch(url + path);
+  assert.equal(r.status, 200, `${path} should return 200`);
+  return r.json();
+};
+const health = await get('/api/health');
+assert.equal(health.status, 'ok');
+const all = await get('/api/products');
+assert.ok(all.products.length >= 20);
+const rackets = await get('/api/products?category=rackets');
+assert.ok(rackets.products.length >= 2 && rackets.products.every(p => p.category === 'rackets'));
+const shoes = await get('/api/products?category=shoes');
+assert.ok(shoes.products.length >= 2 && shoes.products.every(p => p.category === 'shoes'));
+const detail = await get('/api/products/' + rackets.products[0].slug);
+assert.equal(detail.product.slug, rackets.products[0].slug);
+assert.ok(Object.keys(detail.product.specifications).length > 0);
+const cats = await get('/api/categories');
+assert.equal(cats.categories.length, 4);
+const missing = await fetch(url + '/api/products/not-a-real-product');
+assert.equal(missing.status, 404);
+console.log('PASS: health, product lists, category filters, product detail, categories, 404.');

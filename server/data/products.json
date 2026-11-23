@@ -1,0 +1,422 @@
+[
+  {
+    "id": "tg-001",
+    "slug": "wilson-blade-98-v9",
+    "category": "rackets",
+    "brand": "Wilson",
+    "name": "Blade 98 16×19 V9",
+    "subtitle": "CONTROL / FEEL",
+    "image": "/images/products/rackets/wilson-blade-98-v9.jpg",
+    "accent": "#b6e562",
+    "tone": "mint",
+    "description": "A precision-oriented racket with a connected response and a confident feel at contact. Built for players who like to shape the point with placement.",
+    "highlights": [
+      "Connected ball feel",
+      "Control-focused response",
+      "16×19 string pattern"
+    ],
+    "specifications": {
+      "Head size": "98 in²",
+      "Unstrung weight": "305 g",
+      "String pattern": "16×19",
+      "Unstrung balance": "32 cm",
+      "Length": "27 in / 68.6 cm",
+      "Playing level": "Intermediate–advanced",
+      "Playing style": "Control / all-court"
+    },
+    "featured": true,
+    "is_new": false,
+    "category_label": "Rackets"
+  },
+  {
+    "id": "tg-002",
+    "slug": "yonex-ezone-100-2025",
+    "category": "rackets",
+    "brand": "Yonex",
+    "name": "EZONE 100 (2025)",
+    "subtitle": "POWER / COMFORT",
+    "image": "/images/products/rackets/yonex-ezone-100-2025.jpg",
+    "accent": "#92b6f2",
+    "tone": "blue",
+    "description": "An accessible modern frame combining a generous hitting area with easy depth and a comfortable response.",
+    "highlights": [
+      "100 in² head",
+      "Accessible power",
+      "Versatile baseline play"
+    ],
+    "specifications": {
+      "Head size": "100 in²",
+      "Unstrung weight": "300 g",
+      "String pattern": "16×19",
+      "Unstrung balance": "32 cm",
+      "Length": "27 in / 68.6 cm",
+      "Playing level": "Intermediate–advanced",
+      "Playing style": "Power / all-court"
+    },
+    "featured": true,
+    "is_new": true,
+    "category_label": "Rackets"
+  },
+  {
+    "id": "tg-003",
+    "slug": "head-speed-mp-2024",
+    "category": "rackets",
+    "brand": "HEAD",
+    "name": "Speed MP (2024)",
+    "subtitle": "VERSATILITY / SPEED",
+    "image": "/images/products/rackets/head-speed-mp-2024.jpg",
+    "accent": "#d1d7de",
+    "tone": "silver",
+    "description": "A modern all-court option offering a balanced blend of speed, touch, and controlled aggression.",
+    "highlights": [
+      "Balanced all-court setup",
+      "300 g frame",
+      "Consistent 16×19 response"
+    ],
+    "specifications": {
+      "Head size": "100 in²",
+      "Unstrung weight": "300 g",
+      "String pattern": "16×19",
+      "Unstrung balance": "32 cm",
+      "Length": "27 in / 68.6 cm",
+      "Playing level": "Intermediate–advanced",
+      "Playing style": "All-court"
+    },
+    "featured": true,
+    "is_new": false,
+    "category_label": "Rackets"
+  },
+  {
+    "id": "tg-004",
+    "slug": "babolat-pure-aero-2023",
+    "category": "rackets",
+    "brand": "Babolat",
+    "name": "Pure Aero (2023)",
+    "image": "/images/products/rackets/babolat-pure-aero-2023.jpg",
+    "subtitle": "SPIN / POWER",
+    "accent": "#f3d76b",
+    "tone": "yellow",
+    "description": "A spin-minded racket for players who build their rallies with shape, pace and high-net-clearance topspin.",
+    "highlights": [
+      "Spin-oriented design",
+      "100 in² head",
+      "Explosive baseline game"
+    ],
+    "specifications": {
+      "Head size": "100 in²",
+      "Unstrung weight": "300 g",
+      "String pattern": "16×19",
+      "Unstrung balance": "32 cm",
+      "Length": "27 in / 68.6 cm",
+      "Playing level": "Intermediate–advanced",
+      "Playing style": "Topspin / baseline"
+    },
+    "featured": true,
+    "is_new": false,
+    "category_label": "Rackets"
+  },
+  {
+    "id": "tg-009",
+    "slug": "asics-gel-resolution-x",
+    "category": "shoes",
+    "brand": "ASICS",
+    "name": "GEL-RESOLUTION X",
+    "subtitle": "STABILITY / SUPPORT",
+    "accent": "#afc9bd",
+    "tone": "mint",
+    "description": "Support-first tennis footwear with a structured feel designed for demanding lateral movement across the baseline.",
+    "highlights": [
+      "Stable lateral feel",
+      "Durable court-oriented outsole",
+      "Supportive fit"
+    ],
+    "specifications": {
+      "Court surface": "Hard court / selected variants",
+      "Support profile": "Stability",
+      "Fit character": "Structured",
+      "Outsole": "Court traction rubber",
+      "Best for": "Aggressive baseline movement"
+    },
+    "featured": true,
+    "is_new": true,
+    "category_label": "Shoes"
+  },
+  {
+    "id": "tg-010",
+    "slug": "asics-solution-speed-ff-3",
+    "category": "shoes",
+    "brand": "ASICS",
+    "name": "SOLUTION SPEED FF 3",
+    "subtitle": "LIGHTWEIGHT / SPEED",
+    "accent": "#c9d6ef",
+    "tone": "blue",
+    "description": "A speed-oriented tennis shoe concept emphasizing quick movement and a lighter on-foot feel.",
+    "highlights": [
+      "Quick transitions",
+      "Lightweight profile",
+      "Flexible movement"
+    ],
+    "specifications": {
+      "Court surface": "Hard court / selected variants",
+      "Support profile": "Speed",
+      "Fit character": "Athletic",
+      "Outsole": "Court traction rubber",
+      "Best for": "Fast all-court movement"
+    },
+    "featured": true,
+    "is_new": false,
+    "category_label": "Shoes"
+  },
+  {
+    "id": "tg-011",
+    "slug": "nike-vapor-pro-3",
+    "category": "shoes",
+    "brand": "Nike",
+    "name": "Vapor Pro 3",
+    "subtitle": "AGILITY / RESPONSE",
+    "accent": "#f0b0a7",
+    "tone": "coral",
+    "description": "A low-to-court tennis shoe profile built around quick cuts, directional changes and a responsive feel.",
+    "highlights": [
+      "Agile court movement",
+      "Responsive ride",
+      "Tennis-specific traction"
+    ],
+    "specifications": {
+      "Court surface": "Hard court / selected variants",
+      "Support profile": "Responsive",
+      "Fit character": "Performance",
+      "Outsole": "Court rubber",
+      "Best for": "Quick directional changes"
+    },
+    "featured": true,
+    "is_new": false,
+    "category_label": "Shoes"
+  },
+  {
+    "id": "tg-012",
+    "slug": "adidas-barricade-13",
+    "category": "shoes",
+    "brand": "adidas",
+    "name": "Barricade 13",
+    "subtitle": "DURABILITY / LOCKDOWN",
+    "accent": "#e5dca9",
+    "tone": "yellow",
+    "description": "A durable, grounded shoe profile for athletes who prioritize secure support through long, physical rallies.",
+    "highlights": [
+      "Support-oriented fit",
+      "Durability focus",
+      "Court-ready traction"
+    ],
+    "specifications": {
+      "Court surface": "Hard court / selected variants",
+      "Support profile": "Stability",
+      "Fit character": "Secure",
+      "Outsole": "Durable court rubber",
+      "Best for": "Long baseline rallies"
+    },
+    "featured": false,
+    "is_new": false,
+    "category_label": "Shoes"
+  },
+  {
+    "id": "tg-014",
+    "slug": "wilson-super-tour-15",
+    "category": "bags",
+    "brand": "Wilson",
+    "name": "Super Tour 15 Pack",
+    "subtitle": "TOURNAMENT READY",
+    "accent": "#c4a6a0",
+    "tone": "coral",
+    "description": "A large competition-style racket bag designed to organize multiple frames and everyday court essentials.",
+    "highlights": [
+      "Large racket capacity",
+      "Dedicated organization",
+      "Carry-ready build"
+    ],
+    "specifications": {
+      "Capacity": "Up to 15 rackets (manufacturer rating)",
+      "Format": "Multi-compartment racket bag",
+      "Carry style": "Shoulder / backpack straps",
+      "Use case": "Tournament / coaching"
+    },
+    "featured": true,
+    "is_new": false,
+    "category_label": "Bags"
+  },
+  {
+    "id": "tg-015",
+    "slug": "babolat-rh12-pure-aero",
+    "category": "bags",
+    "brand": "Babolat",
+    "name": "RH12 Pure Aero",
+    "subtitle": "MATCH DAY STORAGE",
+    "accent": "#e5d789",
+    "tone": "yellow",
+    "description": "A high-capacity racket bag for players who travel with multiple frames, apparel and court accessories.",
+    "highlights": [
+      "Multi-racket layout",
+      "Large equipment storage",
+      "Tournament-oriented size"
+    ],
+    "specifications": {
+      "Capacity": "Up to 12 rackets (manufacturer rating)",
+      "Format": "Racket bag",
+      "Carry style": "Shoulder / backpack straps",
+      "Use case": "Competition / team practice"
+    },
+    "featured": true,
+    "is_new": false,
+    "category_label": "Bags"
+  },
+  {
+    "id": "tg-016",
+    "slug": "yonex-pro-racquet-bag-9",
+    "category": "bags",
+    "brand": "Yonex",
+    "name": "Pro Racquet Bag 9",
+    "subtitle": "GEAR ORGANIZATION",
+    "accent": "#a8b5d7",
+    "tone": "blue",
+    "description": "Structured storage for a full match-day kit with plenty of room for rackets and accessories.",
+    "highlights": [
+      "Multi-compartment design",
+      "Room for match-day gear",
+      "Comfortable carry options"
+    ],
+    "specifications": {
+      "Capacity": "Up to 9 rackets (manufacturer rating)",
+      "Format": "Racket bag",
+      "Carry style": "Backpack / shoulder",
+      "Use case": "Regular training / competition"
+    },
+    "featured": false,
+    "is_new": false,
+    "category_label": "Bags"
+  },
+  {
+    "id": "tg-017",
+    "slug": "head-tour-backpack",
+    "category": "bags",
+    "brand": "HEAD",
+    "name": "Tour Backpack",
+    "subtitle": "LIGHT TRAVEL",
+    "accent": "#b2cdbd",
+    "tone": "mint",
+    "description": "A compact backpack solution for carrying a lighter tennis setup from class, work or home to the court.",
+    "highlights": [
+      "Compact everyday silhouette",
+      "Easy court commute",
+      "Essentials-first layout"
+    ],
+    "specifications": {
+      "Capacity": "Selected racket compartments (varies by edition)",
+      "Format": "Tennis backpack",
+      "Carry style": "Backpack straps",
+      "Use case": "Everyday practice"
+    },
+    "featured": true,
+    "is_new": false,
+    "category_label": "Bags"
+  },
+  {
+    "id": "tg-018",
+    "slug": "wilson-us-open-extra-duty",
+    "category": "accessories",
+    "brand": "Wilson",
+    "name": "US Open Extra Duty Balls",
+    "subtitle": "COURT ESSENTIAL",
+    "accent": "#dced73",
+    "tone": "yellow",
+    "description": "A well-known extra-duty tennis ball line commonly used on hard courts.",
+    "highlights": [
+      "Extra-duty felt",
+      "Hard-court play",
+      "Match and practice"
+    ],
+    "specifications": {
+      "Type": "Pressurized tennis balls",
+      "Typical can": "3 balls",
+      "Recommended surface": "Hard court",
+      "Category": "Balls"
+    },
+    "featured": true,
+    "is_new": false,
+    "category_label": "Accessories"
+  },
+  {
+    "id": "tg-019",
+    "slug": "tourna-grip-xl",
+    "category": "accessories",
+    "brand": "Tourna",
+    "name": "Grip XL",
+    "subtitle": "DRY FEEL",
+    "accent": "#9ecaf1",
+    "tone": "blue",
+    "description": "A classic absorbent overgrip for players looking for a dry, secure handle feel during longer sessions.",
+    "highlights": [
+      "Absorbent feel",
+      "Wrap-around installation",
+      "Sweat management"
+    ],
+    "specifications": {
+      "Type": "Overgrip",
+      "Feel": "Dry / absorbent",
+      "Application": "Racket handle",
+      "Category": "Grips"
+    },
+    "featured": false,
+    "is_new": false,
+    "category_label": "Accessories"
+  },
+  {
+    "id": "tg-020",
+    "slug": "luxilon-alu-power-125",
+    "category": "accessories",
+    "brand": "Luxilon",
+    "name": "ALU Power 125",
+    "subtitle": "POLY / RESPONSE",
+    "accent": "#c3c9cf",
+    "tone": "silver",
+    "description": "A polyester string option known for a crisp, control-oriented response when selected at an appropriate tension.",
+    "highlights": [
+      "Polyester monofilament",
+      "Control-oriented feel",
+      "1.25 mm gauge"
+    ],
+    "specifications": {
+      "Type": "Polyester string",
+      "Gauge": "1.25 mm / 16L",
+      "Use": "Stringing a tennis racket",
+      "Category": "Strings"
+    },
+    "featured": true,
+    "is_new": false,
+    "category_label": "Accessories"
+  },
+  {
+    "id": "tg-021",
+    "slug": "head-lynx-tour-17",
+    "category": "accessories",
+    "brand": "HEAD",
+    "name": "Lynx Tour 17",
+    "subtitle": "SPIN / CONTROL",
+    "accent": "#c49db5",
+    "tone": "coral",
+    "description": "A shaped polyester string option for players seeking a firmer response and control over full swings.",
+    "highlights": [
+      "Shaped poly profile",
+      "Spin-oriented performance",
+      "17 gauge option"
+    ],
+    "specifications": {
+      "Type": "Polyester string",
+      "Gauge": "17 / approx. 1.25 mm",
+      "Use": "Stringing a tennis racket",
+      "Category": "Strings"
+    },
+    "featured": false,
+    "is_new": false,
+    "category_label": "Accessories"
+  }
+]

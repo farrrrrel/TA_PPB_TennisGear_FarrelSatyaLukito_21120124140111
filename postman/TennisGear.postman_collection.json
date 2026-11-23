@@ -1,0 +1,226 @@
+{
+  "info": {
+    "name": "Tennis Gear - PPB Modul 1 REST API",
+    "description": "Postman collection to test the self-built Express REST API. Set base_url and admin_key before admin calls.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/health",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Categories",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/categories",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      }
+    },
+    {
+      "name": "All products",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/products",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Rackets list",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/products?category=rackets",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "products?category=rackets"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shoes list",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/products?category=shoes",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "products?category=shoes"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Search products",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/products?search=blade",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "products?search=blade"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Racket detail",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/products/wilson-blade-98-v9",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "products",
+            "wilson-blade-98-v9"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Add product (admin)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "x-admin-key",
+            "value": "{{admin_key}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/api/products",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "products"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"slug\": \"demo-training-racket\",\n  \"category\": \"rackets\",\n  \"brand\": \"Demo\",\n  \"name\": \"Training 100\",\n  \"subtitle\": \"LEARNING / DEMO\",\n  \"description\": \"An educational product added through the custom API.\",\n  \"highlights\": [\n    \"Demonstration product\"\n  ],\n  \"specifications\": {\n    \"Head size\": \"100 in\\u00b2\"\n  },\n  \"accent\": \"#b6e562\",\n  \"tone\": \"mint\",\n  \"featured\": false,\n  \"is_new\": true\n}"
+        }
+      }
+    },
+    {
+      "name": "Update product (admin)",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "x-admin-key",
+            "value": "{{admin_key}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/api/products/demo-training-racket",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "products",
+            "demo-training-racket"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"slug\": \"demo-training-racket\",\n  \"category\": \"rackets\",\n  \"brand\": \"Demo\",\n  \"name\": \"Training 100 Updated\",\n  \"subtitle\": \"LEARNING / DEMO\",\n  \"description\": \"An educational product added through the custom API.\",\n  \"highlights\": [\n    \"Demonstration product\"\n  ],\n  \"specifications\": {\n    \"Head size\": \"100 in\\u00b2\"\n  },\n  \"accent\": \"#b6e562\",\n  \"tone\": \"mint\",\n  \"featured\": false,\n  \"is_new\": true\n}"
+        }
+      }
+    },
+    {
+      "name": "Delete product (admin)",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "x-admin-key",
+            "value": "{{admin_key}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/api/products/demo-training-racket",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "api",
+            "products",
+            "demo-training-racket"
+          ]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:4000"
+    },
+    {
+      "key": "admin_key",
+      "value": ""
+    }
+  ]
+}
