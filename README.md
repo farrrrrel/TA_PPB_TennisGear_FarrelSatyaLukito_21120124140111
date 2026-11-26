@@ -1,4 +1,4 @@
-# Tennis Gear 🎾
+﻿# Tennis Gear 🎾
 ### Tennis Equipment & Specifications
 
 **Proyek akhir Praktikum Pemrograman Perangkat Bergerak (PPB)** dengan platform **Progressive Web Apps (PWA)** dan bahasa **JavaScript**. Website katalog perlengkapan tenis: raket, sepatu, tas, dan aksesori. Kode program ini menggunakan **satu platform saja: PWA** (bukan Android Studio/Flutter/React Native).
@@ -9,7 +9,7 @@
 |---|---|
 | Salah satu platform | PWA + JavaScript + React/Vite (Modul 4–5) |
 | API buatan sendiri | REST API Node.js + Express (Modul 1) |
-| Database API | Supabase saat dikonfigurasi; file JSON untuk demo lokal |
+| Database API | Supabase PostgreSQL wajib, tanpa database JSON lokal |
 | Bottom Navigation Bar | Navigasi tetap di bagian bawah, responsive |
 | Minimal 5 halaman | Home, Rackets, Shoes, Bags, Accessories, About, Saved (7 halaman utama) |
 | Minimal 2 halaman list | Rackets, Shoes, Bags, Accessories (4 kategori) |
@@ -21,13 +21,13 @@
 
 - **Frontend:** JavaScript (JSX), React, React Router, Vite, CSS responsif, `vite-plugin-pwa`.
 - **Backend/API:** JavaScript, Node.js, Express, CORS, Supabase SDK.
-- **Database:** Supabase PostgreSQL untuk deployment produksi; data demo JSON lokal saat belum mengisi kredensial.
+- **Database:** Supabase PostgreSQL wajib pada development dan production; JSON hanya untuk seed awal.
 - **API testing:** Postman collection tersedia di folder `postman/`.
 - **Tambahan:** `localStorage` hanya untuk daftar produk favorit (materi Modul 5).
 
 > React adalah library JavaScript di dalam proyek PWA, **bukan platform aplikasi kedua**.
 
-## 3. Cara menjalankan di Windows (tanpa akun Supabase dulu)
+## 3. Cara menjalankan di Windows (Supabase wajib)
 
 Prasyarat: **Node.js 20.19+** dan npm. Pastikan memiliki koneksi internet pada instalasi paket pertama.
 
@@ -54,7 +54,7 @@ npm run dev:api
 npm run dev:client
 ```
 
-Proyek tetap bisa dijalankan untuk demonstrasi tanpa Supabase: REST API buatan sendiri membaca `server/data/products.json`. Untuk penilaian yang mewajibkan database sesuai Modul 1, hubungkan Supabase lewat langkah selanjutnya.
+Supabase wajib untuk menjalankan backend. REST API tidak membaca JSON sebagai database. File seed digunakan hanya untuk impor data awal.
 
 ## 4. Menghubungkan Supabase (Modul 1)
 
@@ -180,3 +180,9 @@ TennisGear-PWA/
 Modul 1: API REST, Node.js/Express, Supabase, pengujian API. Modul 4: React + Vite, routing, manifest dan service worker. Modul 5: fetch/REST API, state management, localStorage, Vercel. Proyek ini **tidak menggunakan Android Studio, Flutter atau React Native**.
 
 Spesifikasi produk dan deskripsi bersifat **contoh edukasional**. Variasi tahun/model/market dapat memiliki spesifikasi berbeda; untuk penggunaan di luar tugas akhir, verifikasi data setiap item pada laman resmi produsen.
+
+
+## Revisi backend Modul 1 (Supabase only)
+
+REST API Express dipisah menjadi Router (server/src/routes), Controller (server/src/controllers), Model (server/src/models), konfigurasi Supabase (server/src/config) dan middleware. Database runtime tunggal adalah Supabase PostgreSQL. File server/seeds/products.json hanya sumber impor awal saat menjalankan seed script, bukan database. Kredensial service role key tetap di backend dan tidak boleh di-push.
+
